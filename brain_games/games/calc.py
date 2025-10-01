@@ -28,5 +28,5 @@ def generate_question_parity():
 rules = 'What is the result of the expression?'
 
 
-def start_calc_game():
+def start_game():
     return launch_game(rules, generate_question_parity)

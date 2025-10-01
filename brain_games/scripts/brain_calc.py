@@ -1,8 +1,8 @@
-from ..games.calc import start_calc_game
+from ..games.calc import start_game
 
 
 def main():
-    return start_calc_game()
+    return start_game()
     
 
 if __name__ == '__main__':

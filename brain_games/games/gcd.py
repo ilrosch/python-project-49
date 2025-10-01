@@ -17,5 +17,5 @@ def generate_question_parity():
 rules = 'Find the greatest common divisor of given numbers.'
 
 
-def start_gcd_game():
+def start_game():
     return launch_game(rules, generate_question_parity)

@@ -15,5 +15,5 @@ def generate_question_parity():
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def start_even_game():
+def start_game():
     return launch_game(rules, generate_question_parity)

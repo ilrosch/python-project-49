@@ -1,4 +1,4 @@
-from ..games.gcd import start_game
+from ..games.progression import start_game
 
 
 def main():

@@ -1,8 +1,8 @@
-from ..games.even import start_even_game
+from ..games.even import start_game
 
 
 def main():
-    return start_even_game()
+    return start_game()
     
 
 if __name__ == '__main__':
