@@ -16,9 +16,12 @@ def launch_game(rules, def_game):
         user_answer = prompt.string('Your answer: ').lower()
         
         if user_answer != answer:
-            print(f"'{user_answer}' is wrong answer ;(. \
-              Correct answer was '{answer}'.")
-            print(f"Let's try again, {user_name}!")
+            message = (
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{answer}'.\n"
+                f"Let's try again, {user_name}!"
+            )
+            print(message)
             return
         
         print('Correct!')
