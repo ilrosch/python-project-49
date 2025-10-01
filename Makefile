@@ -24,3 +24,6 @@ brain-even:
 
 brain-calc:
 	uv run brain-calc
+
+brain-gcd:
+	uv run brain-gcd
