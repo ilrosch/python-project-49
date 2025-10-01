@@ -26,4 +26,4 @@ def launch_game(rules, def_game):
         
         print('Correct!')
 
-    print('Congratulations,', user_name)  
+    print(f"Congratulations, {user_name}!")  
